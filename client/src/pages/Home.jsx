@@ -10,7 +10,7 @@ const Home = () => {
         const collectionName = 'UG'+formElements.regulation.value+formElements.dept.value.toUpperCase()
         const semester = formElements.sem.value
         console.log(collectionName,semester)
-        axios.post("http://localhost:4000/",{collectionName,semester})
+        axios.post("https://gpacalc-zeta.vercel.app/",{collectionName,semester})
         .then(result=>{
             setSubjects(result.data[0].subjects)
         })
