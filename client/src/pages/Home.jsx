@@ -4,6 +4,7 @@ import axios from 'axios'
 const Home = () => {
     const [subjects,setSubjects] = useState([])
     
+    axios.defaults.withCredentials = true;
     const handleSubmit = async(e)=>{
         e.preventDefault()
         const formElements = e.target.elements
