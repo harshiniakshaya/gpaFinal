@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './pages/Home'
 import './styles/Home.css'
 import { FaGithub } from "react-icons/fa";
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
             className='github-icon fixed bottom-4 right-4 text-3xl cursor-pointer bg-transparent'
         /> 
       </a>
+      <Analytics />
     </div>
   )
 }
