@@ -2,7 +2,7 @@
 
 A comprehensive MERN stack application designed to simplify GPA calculations for students of Rajalakshmi Engineering College.
 
-### 🌐 The website is live
+### 🌐 The website is live at
 - [recgpacalc.vercel.app](https://recgpacalc.vercel.app/)
 
 ### 💡 Why this application?
@@ -17,6 +17,7 @@ A comprehensive MERN stack application designed to simplify GPA calculations for
 ### 🛠️ Tech Stack
 - **React + Vite**
     - `axios` for API requests
+- **Tailwind CSS**
 - **Node.js, Express**
     - `mongoose` for MongoDB object modeling
 - **MongoDB Atlas** for cloud database storage
